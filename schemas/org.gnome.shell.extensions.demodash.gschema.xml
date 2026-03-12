@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.demodash" path="/org/gnome/shell/extensions/demodash/">
+        <key name="panel-box" type="s">
+            <default>'left'</default>
+            <summary>Panel box that hosts the dash</summary>
+        </key>
+
+        <key name="panel-index" type="i">
+            <default>1</default>
+            <summary>Panel position index</summary>
+        </key>
+
+        <key name="show-apps" type="b">
+            <default>false</default>
+            <summary>Show the app grid button</summary>
+        </key>
+
+        <key name="show-running" type="b">
+            <default>false</default>
+            <summary>Only show running apps</summary>
+        </key>
+
+        <key name="smart-activate" type="b">
+            <default>true</default>
+            <summary>Use smart app activation behavior</summary>
+        </key>
+
+        <key name="cycle-windows" type="b">
+            <default>true</default>
+            <summary>Cycle app windows on repeated clicks</summary>
+        </key>
+
+        <key name="scroll-workspaces" type="b">
+            <default>true</default>
+            <summary>Scroll over the dash to switch workspaces</summary>
+        </key>
+
+        <key name="show-hover-label" type="b">
+            <default>true</default>
+            <summary>Show the app name when hovering a dash icon</summary>
+        </key>
+
+        <key name="icon-size" type="i">
+            <default>20</default>
+            <summary>Dash icon size</summary>
+        </key>
+
+        <key name="inactive-indicator-default-color" type="b">
+            <default>true</default>
+            <summary>Use the default indicator color for apps outside the active workspace</summary>
+        </key>
+
+        <key name="inactive-icon-opacity" type="i">
+            <default>170</default>
+            <summary>Opacity for pinned apps and apps outside the active workspace</summary>
+        </key>
+
+        <key name="button-margin" type="i">
+            <default>3</default>
+            <summary>Horizontal margin between buttons</summary>
+        </key>
+    </schema>
+</schemalist>

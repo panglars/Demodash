@@ -1,0 +1,8 @@
+{
+  "name": "Demodash",
+  "description": "A native-style top-panel dash that stays out of the way, with workspace-aware app indicators.",
+  "uuid": "demodash@panglars",
+  "shell-version": ["49"],
+  "settings-schema": "org.gnome.shell.extensions.demodash",
+  "url": "https://github.com/panglars/Demodash"
+}

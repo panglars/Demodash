@@ -1,0 +1,23 @@
+.demodash-icon,
+.demodash-show-apps-button {
+    padding: 0 3px;
+    border: 2px solid transparent;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 6px;
+    transition-duration: 150ms;
+}
+
+.demodash-show-apps-button {
+    margin-right: 12px;
+}
+
+.demodash-indicator-active {
+    background-color: -st-accent-color;
+}
+
+.demodash-hover-label {
+    margin-top: 2px;
+    padding: 4px 8px;
+    border-radius: 7px;
+}

@@ -1,0 +1,6 @@
+.codex/
+schemas/gschemas.compiled
+*.zip
+*~
+*.swp
+*.swo
